@@ -35,9 +35,3 @@ for page in range(1, 3):
 df = pd.DataFrame(productlist)
 df.to_excel('output.xlsx', index=False)
 print('Saved to Excel')
-
-
-
-
-# untuk mencari salah satu item 
-# 'Price': items.find('span', {'class': 's-item__price'}).find('span', {'class': 's-item__price'})
